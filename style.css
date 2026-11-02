@@ -86,18 +86,23 @@
     gap:24px;
     flex-wrap:nowrap;
   }
-  .hero-photo{
-    width:400px;
-    height:400px;
-    object-fit:cover;
-    border-radius:16px;
-    border:1px solid var(--line);
-    flex-shrink:0;
-    margin-right:-16px;
-  }
-  @media (max-width:500px){
-    .hero-photo{width:90px; height:90px; margin-right:0;}
-  }
+.hero-photo {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    flex-shrink: 0;
+    margin-right: -16px;
+}
+
+@media (max-width: 500px) {
+    .hero-photo {
+        width: 120px;
+        height: 120px;
+        margin-right: 0;
+    }
+}
 
   h1.hero-title{
     font-family:'Fraunces',serif;
